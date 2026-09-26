@@ -1,5 +1,9 @@
 # anoslide-plugins
 
+![文件/会话双 Tab 与多标签查看器界面示意](assets/anoslide-plugins.png)
+
+*界面示意：按官方主题变量渲染的版式，非实机截图。*
+
 `@anoslide` 命名空间的两个插件，合起来是一套 VS Code 式布局。
 
 | 包 | 端 | 作用 |
