@@ -27,4 +27,4 @@ dsh plugin --profile web add file:<本仓库>/dsh-client-vscode-layout
 ## 前提
 
 - DSH 的 client 插件依赖官方 UI 包（`@deepseek-ai/dsh-client-ui-*`），由 DSH 运行时提供
-- Office 文档预览需本机装 Office 或转换器，缺失时降级
+- Office / Visio 预览靠本机 LibreOffice headless（`LIBREOFFICE_PATH` 可指定 soffice 路径）；Word 另有走 Office COM 的网页视图；转不出来时该类型报错降级
