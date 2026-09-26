@@ -1,0 +1,48 @@
+{
+    "name": "@anoslide/dsh-client-vscode-layout",
+    "version": "0.1.0",
+    "private": true,
+    "type": "module",
+    "main": "lib/index.js",
+    "exports": {
+        ".": {
+            "default": "./lib/index.js"
+        },
+        "./client": {
+            "default": "./lib/client.js"
+        },
+        "./package.json": "./package.json"
+    },
+    "dsh": {
+        "bundle": {
+            "patch": "./cordis.patch.yml"
+        },
+        "client": {
+            "inject": [
+                "@deepseek-ai/dsh-client-ui-theme",
+                "@deepseek-ai/dsh-client-ui-sidebar",
+                "@deepseek-ai/dsh-client-ui-workspace"
+            ],
+            "platform": "web"
+        }
+    },
+    "peerDependencies": {
+        "@deepseek-ai/cordis": "^4.0.1",
+        "@deepseek-ai/dsh-tools": "^0.1.0-rc.6 || ^0.1.5-rc.2",
+        "react": "^18.2.0"
+    },
+    "files": [
+        "lib"
+    ],
+    "description": "VS Code 布局魔改：左文件/会话双 Tab、中多标签只读查看器、右对话/详情 Tab",
+    "license": "MIT",
+    "author": "Ln1m (https://github.com/Ln1m)",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Ln1m/anoslide-plugins.git"
+    },
+    "homepage": "https://github.com/Ln1m/anoslide-plugins#readme",
+    "bugs": {
+        "url": "https://github.com/Ln1m/anoslide-plugins/issues"
+    }
+}

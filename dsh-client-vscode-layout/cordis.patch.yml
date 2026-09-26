@@ -1,0 +1,9 @@
+# @anoslide/dsh-client-vscode-layout plugin patch: inserts the dual-face plugin row
+# into the web profile roster. The node half (exports ".") is a thin host shell,
+# because the layout logic runs entirely in the browser half (exports "./client",
+# declared by `dsh.client` in package.json) — the web GUI's three-column VS Code
+# style frame: left file/session tabs, center multi-tab read-only viewer, right
+# conversation/details tabs.
+- insert:
+    - id: dsh-client-vscode-layout
+      name: '@anoslide/dsh-client-vscode-layout'

@@ -1,0 +1,6 @@
+# @anoslide/dsh-host-files plugin patch: inserts the host-files row into the
+# web profile roster. The node half (exports ".") runs in the host process
+# and serves the /vscode-files/* HTTP routes for the browser file tree/viewer.
+- insert:
+    - id: vscode-host-files
+      name: '@anoslide/dsh-host-files'
