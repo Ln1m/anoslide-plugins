@@ -2,7 +2,7 @@
 
 [中文](README.md) · English
 
-![Files/sessions dual tab and multi-tab viewer](assets/anoslide-plugins.png)
+![Files/sessions dual tab and multi-tab viewer](assets/anoslide-plugins-en.png)
 
 *Mockup: layout rendered from the official theme tokens, not a screenshot of a running instance.*
 
