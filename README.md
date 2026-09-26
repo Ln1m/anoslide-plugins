@@ -4,8 +4,8 @@
 
 | 包 | 端 | 作用 |
 |---|---|---|
-| `dsh-host-files` | host | `/vscode-files/*` HTTP 接口：列目录 / 读文件、外部修改的预览-应用-放弃审批、Skill 与 MCP 管理、全局人设与文件树切换的 systemPrompt 注入 |
-| `dsh-client-vscode-layout` | client | 三栏布局（左文件树 / 中多标签只读查看器 / 右对话）、审批弹窗（红旧绿新 diff，逐笔或全部应用） |
+| `dsh-host-files` | host | `/vscode-files/*` HTTP 接口：列目录、读 / 写文件、新建 / 改名 / 删除、文件搜索与高亮、Office 转换（网页视图 / 原版式 PDF）、会话可见文件与根目录管理、Skill 与 MCP 管理、全局人设注入 |
+| `dsh-client-vscode-layout` | client | 三栏布局（左「文件 / 会话」双 Tab、中多标签查看器、右「对话 / 详情」Tab），落地页含最近打开与文件列表 |
 
 ## 装
 
