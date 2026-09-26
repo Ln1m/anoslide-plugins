@@ -4297,7 +4297,7 @@ window.__ModuleLoader__.load({
 			for (const p of readRecents(vkCurrentSessionId())) push(p);
 			return out;
 		}
-		/** 组标签：相对该根的最多两段（例：`session-002-flyback-transformer`、`…/模型文件`）。 */
+		/** 组标签：相对该根的最多两段（例：`session-002-example`、`…/模型文件`）。 */
 		function vkAtGroupLabel(root, dir) {
 			const rel = vkAtRelTo(root, dir);
 			const base = rel === null ? String(dir).replace(/\\/g, "/") : rel;
