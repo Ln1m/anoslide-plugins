@@ -1,5 +1,7 @@
 # anoslide-plugins
 
+[English](README.en.md) · 中文
+
 ![文件/会话双 Tab 与多标签查看器界面示意](assets/anoslide-plugins.png)
 
 *界面示意：按官方主题变量渲染的版式，非实机截图。*
