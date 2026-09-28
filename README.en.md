@@ -1,5 +1,7 @@
 # anoslide-plugins
 
+> **Archived (2026-09-28)**: no longer maintained; superseded by [dsh-vk-suite](https://github.com/Ln1m/dsh-vk-suite).
+
 [中文](README.md) · English
 
 ![Files/sessions dual tab and multi-tab viewer](assets/anoslide-plugins-en.png)

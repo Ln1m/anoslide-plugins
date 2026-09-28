@@ -1,5 +1,7 @@
 # anoslide-plugins
 
+> **已归档（2026-09-28）**：本仓不再维护，功能由 [dsh-vk-suite](https://github.com/Ln1m/dsh-vk-suite) 取代。
+
 [English](README.en.md) · 中文
 
 ![文件/会话双 Tab 与多标签查看器界面示意](assets/anoslide-plugins.png)
