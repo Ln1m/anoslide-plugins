@@ -1,4 +1,4 @@
-# anoslide-plugins
+﻿# anoslide-plugins
 
 > **已归档（2026-09-28）**：本仓不再维护，功能由 [dsh-vk-suite](https://github.com/Ln1m/dsh-vk-suite) 取代。
 
@@ -30,7 +30,7 @@ dsh plugin --profile web add file:<本仓库>/dsh-client-vscode-layout
 |---|---|---|
 | 全局人设文件 | `~/.dsh/global-persona.md` | 空（面板里可编辑） |
 | 文件树落地页常用根 | `dsh-client-vscode-layout/lib/client.js` 的 `HOME_DIRS` | `[]`，按需补自己的目录 |
-| 桌面快捷入口 | 同文件 `DESKTOP_HINT` | `D:\Desktop`，探测存在才显示 |
+| 桌面快捷入口 | 同文件 `DESKTOP_HINT` | 空；填自己的桌面路径才显示 |
 
 ## 前提
 

@@ -235,7 +235,7 @@ window.__ModuleLoader__.load({
 			for (const fn of [...vkHomeState.subs]) { try { fn(null); } catch { /* 订阅方可能已卸载 */ } }
 		}
 		// 本机桌面目录（本机若已重定向，按下面的常量改）：目录浏览器根视图里与磁盘同级列出的快捷入口，探测存在才显示
-		const DESKTOP_HINT = "D:\\Desktop";
+		const DESKTOP_HINT = "";
 		/**
 		 * 当前会话 id（**文件栏按会话隔离的唯一基准**，2026-09-12 用户口径「每个对话不共享文件栏」）。
 		 * root 作用域插槽拿不到 props.sessionId（见 §5.2.1），一律现取 sessions 服务的快照。

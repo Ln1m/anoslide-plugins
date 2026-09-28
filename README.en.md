@@ -1,4 +1,4 @@
-# anoslide-plugins
+﻿# anoslide-plugins
 
 > **Archived (2026-09-28)**: no longer maintained; superseded by [dsh-vk-suite](https://github.com/Ln1m/dsh-vk-suite).
 
@@ -30,7 +30,7 @@ Restart the web instance afterwards.
 |---|---|---|
 | Global persona file | `~/.dsh/global-persona.md` | empty (editable in the panel) |
 | Landing-page roots for the file tree | `HOME_DIRS` in `dsh-client-vscode-layout/lib/client.js` | `[]` — add your own directories |
-| Desktop shortcut entry | `DESKTOP_HINT` in the same file | `D:\Desktop`, shown only if it exists |
+| Desktop shortcut entry | `DESKTOP_HINT` in the same file | empty; set your own desktop path to show it |
 
 ## Requirements
 
